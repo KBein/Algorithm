@@ -1,5 +1,7 @@
 package com.kbein.algorithm.ReverseInteger;
 
+import android.util.Log;
+
 /**
  * com.kbein.algorithm.ReverseInteger
  * Created by KBein on 2018/11/9 11:58
@@ -21,10 +23,18 @@ package com.kbein.algorithm.ReverseInteger;
 public class IntegerReverse {
 
 
-    public int reverse(int x) {
+    public static int reverse(int x) {
+        int result = 0;
+        while (x !=0){
+            int pop = x % 10;
+            x /=10;
 
+            if (result > Integer.MAX_VALUE/10 || (result == Integer.MAX_VALUE/10 && pop > 7)) return 0;
+            if (result < Integer.MIN_VALUE/10 || (result == Integer.MIN_VALUE/10 && pop < -8)) return 0;
+            result = result * 10 + pop;
+        }
 
-        return 0;
+        return result;
 
     }
 
