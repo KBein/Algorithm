@@ -23,8 +23,8 @@ import android.util.Log;
 public class IntegerReverse {
 
 
-    public static int reverse(Long x) {
-        int result = 0;
+    public static long reverse(Long x) {
+        long result = 0;
         while (x !=0){
             int pop = (int) (x % 10);
             x /=10;
