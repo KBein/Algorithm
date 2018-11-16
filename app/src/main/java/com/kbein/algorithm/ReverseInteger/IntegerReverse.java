@@ -23,10 +23,10 @@ import android.util.Log;
 public class IntegerReverse {
 
 
-    public static int reverse(int x) {
+    public static int reverse(Long x) {
         int result = 0;
         while (x !=0){
-            int pop = x % 10;
+            int pop = (int) (x % 10);
             x /=10;
 
             if (result > Integer.MAX_VALUE/10 || (result == Integer.MAX_VALUE/10 && pop > 7)) return 0;
