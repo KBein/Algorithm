@@ -1,4 +1,4 @@
-package com.kbein.algorithm.Palindrome;
+package com.kbein.algorithm.palindrome;
 
 /**
  * com.kbein.algorithm.Palindrome

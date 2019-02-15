@@ -1,4 +1,4 @@
-package com.kbein.algorithm.AddAlgorithm;
+package com.kbein.algorithm.addAlgorithm;
 
 import java.util.HashMap;
 import java.util.Map;

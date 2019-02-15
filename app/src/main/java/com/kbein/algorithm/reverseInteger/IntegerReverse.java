@@ -1,6 +1,4 @@
-package com.kbein.algorithm.ReverseInteger;
-
-import android.util.Log;
+package com.kbein.algorithm.reverseInteger;
 
 /**
  * com.kbein.algorithm.ReverseInteger

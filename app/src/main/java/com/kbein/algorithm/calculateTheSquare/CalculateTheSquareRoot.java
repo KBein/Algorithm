@@ -1,4 +1,4 @@
-package com.kbein.algorithm.CalculateTheSquare;
+package com.kbein.algorithm.calculateTheSquare;
 
 
 /**

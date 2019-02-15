@@ -1,4 +1,4 @@
-package com.kbein.algorithm.RomanNumber;
+package com.kbein.algorithm.romanNumber;
 
 import java.util.HashMap;
 
